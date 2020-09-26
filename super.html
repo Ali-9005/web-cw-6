@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        // Qus 1
+        const name = "علي";
+        let age = 17;
+        let ageByFive = 17*5;
+        
+
+        
+        console.log(`انا ${name} و عمري ${age}`);
+        console.log(`ضعف عمري خمس مرات هو ${ageByFive}`);
+
+
+        // Qus 2
+        let hobbies = [`السباحه`,`الاكل`,`النوم`];
+        hobbies.push(age);
+        hobbies[hobbies.length] = age;
+
+        console.log(hobbies.length);
+        hobbies.pop();
+        console.log(hobbies);
+
+
+        let object = { 
+            favoriteProgrammingLanguage: "PHP",
+            programmingPath: "Web Development",
+            teachers: [
+                "نانسي",
+                "رهف"
+                ]
+        }
+
+        let { favoriteProgrammingLanguage, programmingPath, teachers } = object;
+
+        console.log(`Programming Path: ${programmingPath}`);
+        console.log(`My helping teacher: ${teachers[0]}`);
+
+    </script>
+</body>
+</html>
